@@ -1,0 +1,159 @@
+.profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.profile-user-info {
+    flex: 0 0 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.profile-user-info h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.profile-user-info p {
+    font-size: 18px;
+    color: #555;
+}
+
+.profile-password-section {
+    margin-top: 20px;
+}
+
+.profile-password-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+.profile-edit-password-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #88b04b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.profile-edit-password-btn:hover {
+    background-color: #6b9c3e;
+}
+
+.profile-opinie-list {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-opinie-list h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4c3a29;
+}
+
+.profile-opinie-scrollable {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.profile-opinia-card {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile-opinia-card h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.profile-opinia-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.profile-data-dodania {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.profile-chngPassword-Form p {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+
+.profile-chngPassword-Form label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+
+.profile-chngPassword-Form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-chngPassword-Form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+.profile-chngPassword-Form p {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.profile-chngPassword-Form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.profile-chngPassword-Form button:hover {
+    background-color: #0056b3;
+}
+

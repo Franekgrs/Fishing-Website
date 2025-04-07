@@ -1,0 +1,106 @@
+
+.opinie-page {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.opinie-page h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.opinie-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.card {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #4c3a29;
+}
+
+.card h3 .opinia-lowisko-link {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.card h3 .opinia-lowisko-link:hover {
+  text-decoration: underline;
+}
+
+
+.card h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.card p strong {
+  color: #333;
+}
+
+
+
+
+.card p strong[style="color: #e74c3c;"] {
+  color: #e74c3c;
+}
+
+
+.card p strong + p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.btn-powrot {
+  padding: 6px 12px;
+  background-color: transparent;
+  color: #3498db;
+  font-size: 14px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-powrot:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-powrot:active {
+  background-color: #2980b9;
+  color: white;
+}

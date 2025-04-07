@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "react-alert": "^7.0.3",
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.1.1",
+    "react-toastify": "^11.0.2"
+  },
+  "scripts": {
+    "start": "concurrently \"npm start --prefix server\" \"npm start --prefix client\""
+  },
+  "proxy": "http://localhost:3002",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

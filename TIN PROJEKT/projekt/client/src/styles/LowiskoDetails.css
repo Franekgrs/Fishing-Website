@@ -1,0 +1,173 @@
+
+.lowisko-details {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lowisko-details h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.lowisko-details p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.lowisko-details .average-rating {
+    font-size: 18px;
+    color: #4caf50;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+.lowisko-details a {
+    color: #88b04b;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.lowisko-details a:hover {
+    text-decoration: underline;
+}
+
+
+.opinions-section {
+    margin-top: 40px;
+}
+
+.opinions-section h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4c3a29;
+}
+
+.opinions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.opinion-card {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.opinion-card p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.opinion-image {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+
+
+.stars {
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.star {
+    font-size: 25px;
+    cursor: pointer;
+    color: #ddd;
+}
+
+.star.filled {
+    color: #ffcd3c;
+}
+
+
+.xForm {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.xForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.xForm input[type="text"] {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+.xForm input[type="file"] {
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.xForm input[type="submit"] {
+    background-color: #88b04b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.xForm input[type="submit"]:hover {
+    background-color: #6b9c3e;
+}
+
+.xForm p {
+    font-size: 14px;
+    color: red;
+}
+
+.xForm input[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+
+.btn-powrot {
+    padding: 6px 12px;
+    background-color: transparent;
+    color: #3498db;
+    font-size: 14px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-powrot:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn-powrot:active {
+    background-color: #2980b9;
+    color: white;
+}
+
+
